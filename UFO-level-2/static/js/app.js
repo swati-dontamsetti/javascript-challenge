@@ -10,13 +10,14 @@ button.on("click", function() {
     var inputDate = d3.select("#input-date").property("value")
     // var inputCity = d3.select("#input-city").property("value").toLowerCase()
     // var inputState = d3.select("#input-state").property("value").toLowerCase()
-    // var inputCountry = d3.select("#input-country").property("value").toLowerCase()
+    var inputCountry = d3.select("#input-country").property("value").toLowerCase()
     // var inputShape = d3.select("#input-shape").property("value").toLowerCase()
 
     
 
     // filter data by the datetime
-    var filterData = tableData.filter(siting => siting.datetime === inputDate)
+    var filterData = tableData.filter(siting => siting.datetime === inputDate
+                                    && siting.country === inputCountry)
 
     // clear previous data
     var tbody = d3.select("tbody")
