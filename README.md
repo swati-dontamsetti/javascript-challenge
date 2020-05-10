@@ -24,12 +24,12 @@ You can handle this... right? The planet Earth needs to know what we have found!
 - - -
 ### Added Feature
 If the user enters an invalid date, or a date not it the dataset, a pop-up appears that asks them to try another value.
-![alert](Images/webpage3.png)
+<br>![alert](Images/webpage3.png)
 - - -
 ### The Webpage
-Regular:![small](Images/webpage.png)
-Max-Width 800:![smaller](Images/webpage1.png)
-Max-Width 500:![smallest](Images/webpage2.png)
+**Regular:<br>![small](Images/webpage.png)
+Max-Width 800:<br>![smaller](Images/webpage1.png)
+Max-Width 500:<br>![smallest](Images/webpage2.png)**
 - - -
 ### Dataset
 
