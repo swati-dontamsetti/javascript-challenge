@@ -21,12 +21,15 @@ You can handle this... right? The planet Earth needs to know what we have found!
   * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
 
 * Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
-
+- - -
+### Added Feature
+If the user enters an invalid date, or a date not it the dataset, a pop-up appears that asks them to try another value.
+![alert](Images/webpage3.png)
 - - -
 ### The Webpage
-![small](Images/webpage.png)
-![smaller](Images/webpage1.png)
-![smallest](Images/webpage2.png)
+Regular:![small](Images/webpage.png)
+Max-Width 800:![smaller](Images/webpage1.png)
+Max-Width 500:![smallest](Images/webpage2.png)
 - - -
 ### Dataset
 
