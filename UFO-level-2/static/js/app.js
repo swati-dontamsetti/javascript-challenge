@@ -24,7 +24,7 @@ button.on("click", function() {
 
     if (filterData.length == 0) {
         alert(`We have no data for ${inputDate}
-            \nMake sure the date is in m/y/yyyy format
+            \nMake sure the date is in m/d/yyyy format
             \nOR try another date.`);
     } else{
     // Use the forEach to add values to the table
