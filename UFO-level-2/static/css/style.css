@@ -1,0 +1,53 @@
+/* Container holding the image and the text */
+.image {
+  position: relative;
+}
+
+/* Centered text */
+.centered {
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+/* Image text */
+.centered p {
+  color: yellow;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+#filters {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+table {
+  background-color: lightblue;
+}
+
+nav > a > strong {
+  color: yellow;
+}
+
+/* media queries which will only be activated at specific screen sizes */
+@media (max-width: 800px) {
+  body {
+    background-color: lightgray;
+  }
+  table {
+    background-color: white;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: palegoldenrod;
+  }
+  table {
+    background-color: lightgray;
+  }
+}
