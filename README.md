@@ -12,7 +12,7 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 ## Your Task
 
-### Level 1: Automatic Table and Date Search (Required)
+### Level 1: Automatic Table and Date Search (Required) - COMPLETE
 
 * Create a basic HTML web page.
 
@@ -28,7 +28,7 @@ If the user enters an invalid date, or a date not it the dataset, a pop-up appea
 <br><br>![alert](Images/webpage3.png)
 - - -
 
-### Level 2: Multiple Search Categories (Optional)
+### Level 2: Multiple Search Categories (Optional) - INCOMPLETE
 
 * Complete all of Level 1 criteria.
 
